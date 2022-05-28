@@ -1,0 +1,155 @@
+#about {
+    background: rgba(0,0,0,.4);
+}
+
+.titlebox {
+    width: 100%;
+    padding: 1.8rem;
+    text-align: center;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 14%;
+}
+
+.about-info {
+    width: 100%;
+    border-radius: 5rem;
+    background: linear-gradient(45deg, rgba(255,255,255,.6), rgba(0,0,0,.25), rgba(255,255,255,.6));
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;
+}
+
+.about-img {
+    border-radius: 6rem;
+    overflow: hidden;
+    transform: rotate(-10deg);
+    transition: var(--trst);
+}
+
+.about-img:hover {
+    transform: rotate(0);
+}
+
+.about-cards {
+    display: grid;
+    /* reapeat(3 - 3개일때 고로 늘어날 시 늘리기) */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about-item {
+    background: rgba(255, 255, 255, .85);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: var(--trst);
+    color: #000;
+}
+
+.about-item:hover {
+    background: transparent;
+    color: #ffffff;
+    border-color: rgba(0,0,0,.4);
+    cursor: default;
+}
+
+.about-item:hover path {
+    color: #ffffff;
+}
+
+.about-icon {
+    color: #000;
+    font-size: 1.5rem;
+    margin-bottom: .9rem;
+}
+
+.about-item h5 {
+    font-size: .9rem;
+}
+
+.about-item small {
+    font-size: .8rem;
+    color: (--color-light);
+}
+
+.about-content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+.about-content .btn {
+    text-align: center;
+    width: 180px;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.btn2 {
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    box-shadow: 0 7px 2px rgba(255, 255, 255, .45);
+    background: rgba(255, 255, 255, .85);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.btn2:hover {
+    box-shadow: 0 0 1px rgba(0, 0, 0, .25);
+    background-color: #333;
+}
+
+@media (max-width: 1024px) {
+    #about {
+        height: 100vh;
+    }
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about-info {
+        width: 40%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about-content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+@media (max-width: 614px) {
+    #about {
+        height: auto;
+    }
+    .about-info {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+    .about-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about-content {
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+
+    .about-item  {
+        padding: 1.3rem;
+        background: linear-gradient(45deg, transparent, #ffffff, transparent);
+        color: #000;
+        /* font-weight: bold; */
+        opacity: .8;
+    }
+
+    .about-content p {
+        margin: 1.5rem 0;
+    }
+}
