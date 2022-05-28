@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-porfol/static/css/main.183b9e82.css",
+    "main.js": "/react-porfol/static/js/main.25a5cec1.js",
+    "static/media/main1.gif": "/react-porfol/static/media/main1.ca59aeaf26cca8fd4675.gif",
+    "static/media/about-img.png": "/react-porfol/static/media/about-img.b66edf6ff4c0a48bbb46.png",
+    "static/media/kimgeon.pdf": "/react-porfol/static/media/kimgeon.db7828eea8d78db8d336.pdf",
+    "static/media/project1.png": "/react-porfol/static/media/project1.d002f7616ad81dfdc63a.png",
+    "static/media/project2.png": "/react-porfol/static/media/project2.5acd6b85747ca2411729.png",
+    "static/media/project4.png": "/react-porfol/static/media/project4.7526bb0342f0479cac9f.png",
+    "static/media/project6.png": "/react-porfol/static/media/project6.84965602fafe4c284d32.png",
+    "static/media/project3.png": "/react-porfol/static/media/project3.e59371268e9479ed31a4.png",
+    "static/media/project5.png": "/react-porfol/static/media/project5.879f5ed004c1f35a35ec.png",
+    "index.html": "/react-porfol/index.html",
+    "main.183b9e82.css.map": "/react-porfol/static/css/main.183b9e82.css.map",
+    "main.25a5cec1.js.map": "/react-porfol/static/js/main.25a5cec1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.183b9e82.css",
+    "static/js/main.25a5cec1.js"
+  ]
+}
