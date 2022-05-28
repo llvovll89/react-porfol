@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-porfol/static/css/main.183b9e82.css",
-    "main.js": "/react-porfol/static/js/main.25a5cec1.js",
+    "main.css": "/react-porfol/static/css/main.319d1b09.css",
+    "main.js": "/react-porfol/static/js/main.ad867ce2.js",
     "static/media/main1.gif": "/react-porfol/static/media/main1.ca59aeaf26cca8fd4675.gif",
     "static/media/about-img.png": "/react-porfol/static/media/about-img.b66edf6ff4c0a48bbb46.png",
     "static/media/kimgeon.pdf": "/react-porfol/static/media/kimgeon.db7828eea8d78db8d336.pdf",
@@ -12,11 +12,11 @@
     "static/media/project3.png": "/react-porfol/static/media/project3.e59371268e9479ed31a4.png",
     "static/media/project5.png": "/react-porfol/static/media/project5.879f5ed004c1f35a35ec.png",
     "index.html": "/react-porfol/index.html",
-    "main.183b9e82.css.map": "/react-porfol/static/css/main.183b9e82.css.map",
-    "main.25a5cec1.js.map": "/react-porfol/static/js/main.25a5cec1.js.map"
+    "main.319d1b09.css.map": "/react-porfol/static/css/main.319d1b09.css.map",
+    "main.ad867ce2.js.map": "/react-porfol/static/js/main.ad867ce2.js.map"
   },
   "entrypoints": [
-    "static/css/main.183b9e82.css",
-    "static/js/main.25a5cec1.js"
+    "static/css/main.319d1b09.css",
+    "static/js/main.ad867ce2.js"
   ]
 }
